@@ -17,7 +17,7 @@ const BORDER_COLOR = "#d5d5d5";
 const TITLE_FONT_SIZE = 13;
 const TITLE_COLOR = "#8f8f8f";
 const BUTTON_FONT_WEIGHT = "normal";
-const BUTTON_FONT_COLOR = "#007ff9";
+const BUTTON_FONT_COLOR = '#F5F2F0';
 const BUTTON_FONT_SIZE = 20;
 
 export default StyleSheet.create({
