@@ -57,7 +57,7 @@ export default StyleSheet.create({
     backgroundColor: "transparent"
   },
   cancelButton: {
-    backgroundColor: BACKGROUND_COLOR,
+    backgroundColor: '#454545',
     borderRadius: BORDER_RADIUS,
     height: 57,
     marginBottom: isIphoneX() ? 20 : 0,
