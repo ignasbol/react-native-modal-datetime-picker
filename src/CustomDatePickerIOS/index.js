@@ -184,7 +184,7 @@ export default class CustomDatePickerIOS extends React.PureComponent {
           </View>
           <TouchableHighlight
             style={styles.confirmButton}
-            underlayColor="#ebebeb"
+            underlayColor='#505050'
             onPress={this._handleConfirm}
             disabled={
               !neverDisableConfirmIOS && this.state.userIsInteractingWithPicker
@@ -196,7 +196,7 @@ export default class CustomDatePickerIOS extends React.PureComponent {
 
         <TouchableHighlight
           style={styles.cancelButton}
-          underlayColor="#ebebeb"
+          underlayColor='#505050'
           onPress={this._handleCancel}
         >
           {customCancelButtonIOS || cancelButton}
